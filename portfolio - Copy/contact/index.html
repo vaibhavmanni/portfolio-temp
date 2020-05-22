@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../style.css">
+        <title>Portfolio</title>
+    </head>
+
+    <body data-barba="wrapper">
+        <div class="container row">
+            
+            <div class="loading-container">
+                <div class="loading-screen">
+                    <img src="../images/logo.png" alt="logo" height="100px" width="100px">
+                </div>
+            </div>
+
+                <div class="top-logo-nav-container col-12">
+                    <div class="logo-nav-container col-10">
+                        <div class="logo-container col-3">
+                            <a href="../" class="nav_links"><img src="../images/logo.png" alt="logo" height="50px" width="50px"></a>                        
+                        </div>
+                        <nav class="nav-container col-9">
+                            <ul class="nav-list">
+                                <li class="nav-li-item"><a href="../" class="nav_links">Home</a></li>
+                                <li class="nav-li-item"><a href="../about" class="nav_links">About</a></li>
+                                <li class="nav-li-item"><a href="../contact" class="nav_links">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+    
+                <main data-barba="container" data-barba-namespace="contact" class="col-12">
+                    <section class="form-social-large-container col-12">
+                        <div class="form-social-container col-12">
+                            <div class="form-container col-12">
+                                <form action="/action_page.php" class="form-contents" method="POST">
+                                    <h1 class="form-heading">Contact</h1>
+                                    <p class="form-above-text">Have a project in mind ? a question ?  have any questions about my services, or just want to say hello, feel free to get in touch.</p>
+                                    <input type="text" id="name" class="form-input" name="name" value="Name" required><br>
+                                    <input type="text" id="email" class="form-input" name="email" value="Email" required><br>
+                                    <input type="textarea" id="message" class="form-input" name="message" value="Message" required><br>
+                                    <input type="submit" class="form-button" value="Submit">
+                                </form> 
+                            </div>
+                        </div>        
+                    </section>
+                    
+                </main>
+        </div> 
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/@barba/core"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+        <script src="/js/transition.js"></script>
+        
+    </body>
+</html>
